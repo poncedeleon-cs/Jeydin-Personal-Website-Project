@@ -1,7 +1,7 @@
 <div align="center">
-<h1>Personal Website Project</h1>
-</a>
-This is my personal website that is basically horizontal Linktree. You can call it Linkbush if you want.
+
+# Personal Website
+This is my personal website that I created in my senior year of high school for my computer science class.
 <br />
 
 ### Live demo at [j21.dev](https://j21.dev/)
@@ -17,24 +17,23 @@ This is my personal website that is basically horizontal Linktree. You can call 
     <img src="https://img.shields.io/github/stars/poncedeleon-cs/Jeydin-Personal-Website-Project?style=social" alt="stars"/>
   </a>
 
-</p>
+The aim of this project is to practice using Typescript and Tailwind CSS to make a basic landing page layout.
 </div>
-The aim of this project is to practice using Tailwind CSS and make a basic landing page layout.
 
 ## Bug Reporting
 If you encounter any strange bugs on the website, please let me know by going to [issues](https://github.com/poncedeleon-cs/Jeydin-Personal-Website-Project/issues/) and creating a bug report.
 
 ## Preview
-![](./public/image.png)
+![](./public/preview.png)
 
 ## Tech Stack
 ### Front-end:
-- [React.js](https://react.dev/)
-- [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [FontAwesome Icons](https://fontawesome.com/icons/)
 ### Back-end:
-- There's no backend 💀
+- [React.js](https://react.dev/)
+- [Next.js](https://nextjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
 
 ## Local Development
 ### 1. Clone the project

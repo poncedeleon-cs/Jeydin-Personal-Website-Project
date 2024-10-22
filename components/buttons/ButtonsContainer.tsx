@@ -1,8 +1,8 @@
 import { FaSquareXTwitter, FaSquareEnvelope, FaSquareGithub, FaSquareInstagram, FaLinkedin, FaSquareYoutube } from "react-icons/fa6";
 
-function ButtonsContainer() {
+export default function ButtonsContainer() {
   return (
-    <div className="flex flex-row justify-center text-light-buttons dark:text-dark-buttons">
+    <div className="flex flex-row justify-center text-red-400 dark:text-red-300">
       <a className="no-underline" target="_blank" href="mailto:jeydin@j21.dev">
         <div className="p-2 duration-300 text-[3em] hover:-translate-y-2 hover:rotate-6" aria-hidden="true"
           title="Email">
@@ -42,5 +42,3 @@ function ButtonsContainer() {
     </div>
   );
 }
-
-export default ButtonsContainer;

@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Customize scrollbar for WebKit browsers */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-track {
+  background: #2d2d2d; /* Dark color for the scrollbar track background */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.5); /* Light color for the scrollbar thumb */
+  border-radius: 10px; /* Optional: round the scrollbar thumb */
+  border: 2px solid transparent; /* Optional: add space around the thumb */
+}
+
+/* Customize scrollbar for Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.5) #2d2d2d; /* Light thumb color on dark track background */
+}
+
+/* Customize scrollbar for Edge and IE */
+*::-ms-scrollbar {
+  width: 8px;
+}
+
+*::-ms-scrollbar-track {
+  background: #2d2d2d; /* Dark color for the scrollbar track background */
+}
+
+*::-ms-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.5); /* Light color for the scrollbar thumb */
+  border-radius: 10px;
+  border: 2px solid transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+  overscroll-behavior: contain;
+  background-color: #2d2d2d;
+}
